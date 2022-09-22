@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 /**
- * Main - Prints numbers between 0 to 9
+ * Main: main entry point
  *
- * Return : Always 0
+ * Description: prints all single digit numbers of base 10 from 0
+ *
+ * Return: 0
  */
 
 int main(void)
@@ -11,10 +13,11 @@ int main(void)
 	int i;
 
 	{
-        for (i = 0;i, 10;i++)
-		putchar (i + '0');
+		for (i = 0; i < 10; i++)
+		{
+			putchar(i);
+		}
 	}
-	putchar('\n');
-
-	return (0);
+		putchar('\n');
+		return (0);
 }
