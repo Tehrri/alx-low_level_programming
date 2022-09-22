@@ -14,7 +14,7 @@ int main(void)
 	int n;
 
 	srand(time(o));
-	n =rand() - RAND-MAX / 2;
+	n = rand() - RAND-MAX / 2;
 
 	if (n > 0)
 	{
