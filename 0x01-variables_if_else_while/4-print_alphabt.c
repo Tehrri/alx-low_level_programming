@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - prints alphabet without q and e
+ * main - this is a function
+ *
+ * Description:  prints alphabet without q and e
  *
  * return : 0 when the funtion ends.
  */
@@ -19,5 +21,5 @@ int main(void)
 		}
 	}
 	putchar ('\n');
-	return (0)
+	return (0);
 }

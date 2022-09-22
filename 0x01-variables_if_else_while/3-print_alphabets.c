@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 /**
- * Main - prints the alphabet.
+ * Main: this is a function
+ *
+ * Description: prints the alphabet.
  *
  * Return: Always 0
  */
@@ -12,9 +14,9 @@ int main(void)
 	for (ch = 'a'; ch <= 'z'; ch++)
 		putchar(ch);
 
-	for (ch = 'A'; ch <= 'Z'; ch++0
+	for (ch = 'A'; ch <= 'Z'; ch++)
 			putchar(ch);
 		putchar('\n');
 
-		return (0)
-		}
+		return (0);
+}
