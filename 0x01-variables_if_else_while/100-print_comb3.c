@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - prints numbers between 00 to 89
+ * main: this is a function
+ *
+ * Description: prints numbers between 00 to 89
  *
  * Return: Always 0 (Success)
  */
@@ -10,7 +12,7 @@ int main(void)
 	int a;
 	int b;
 
-	for (a = 0; a , 9; a++)
+	for (a = 0; a < 9; a++)
 	{ 
 		for (b = a + 1; b < 10; b++)
 		{
