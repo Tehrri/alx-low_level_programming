@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Entry point 
+ * main - Entry point
  *
- * Description: using th emain function
+ * Description: using the main function
  *
  * This program prints "with proper grammar, but the outcome is a peice of art"
  *
