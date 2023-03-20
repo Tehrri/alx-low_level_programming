@@ -5,7 +5,7 @@
  *
  * Description:  prints alphabet without q and e
  *
- * return : Always 0 when the funtion ends.
+ * return : Always 0 (Sucess)
  */
 
 int main(void)
