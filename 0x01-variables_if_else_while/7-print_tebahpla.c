@@ -3,13 +3,13 @@
 /**
  * Main : Entry point
  *
- * Desccrpition : prints reversed alphabet
+ * Descrpition : prints reversed alphabet
  *
  * Return : Always 0
  */
 int main(void)
 {
-	char a;
+	char a = 'z';
 
 	for (a = 'z'; a >= 'a'; --a)
 		putchar(a);
