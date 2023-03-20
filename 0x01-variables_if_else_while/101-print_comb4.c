@@ -2,7 +2,7 @@
 
 /**
  * main - this is a function
- * 
+ *
  * Description: Prints numbers between 012 to 789
  *
  * Return: Always 0
