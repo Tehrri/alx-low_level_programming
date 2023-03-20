@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * Main - this is a function
+ * main - this is a function
  *
  * Description: prints numbers between 0 to 9 with commas and spaces
  *
