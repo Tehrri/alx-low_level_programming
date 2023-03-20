@@ -3,32 +3,28 @@
 #include <stdio.h>
 
 /**
- * Main - Determines greater than 5, less than 6, or is 0
+ * Main - Entry point
  *
- * Return: Always 0
+ * Determines greater than 5, less than 6, or is 0
+ *
+ * Return: Always 0 (Success)
  */
 
 int main (void)
 {
-	int n;
-	int l;
+	int n, l;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+
 	l = n % 10;
 
 	if (l > 5)
-	{
 		printf("Last digit of %d is %d and is greater than 5\n", n, l);
-	}
-	else if (1 < 6 && 1 !=0)
-	{
-		printf("Last digit of %D is %D and is less than 6 and not 0\n", n, l);
-	}
-	else
-       	{
+	else if ((l < 6) && l !==0)
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, l);
+	else if (l == 0)
 		printf("Last digit of %d is %d and is 0\n", n, l);
-	}
 
 	return (0);
 }
