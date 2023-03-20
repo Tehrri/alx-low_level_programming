@@ -1,11 +1,12 @@
 #include <stdio.h>
 
 /**
- * Main - Entry Point
+ * main - Entry Point
  *
  * Description: program that prints alphabets in lowecase
  *
  * Return : Always 0 (Success)
+ *
  */
 
 int main(void)
