@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * Main - Entry point
+ * main - Entry point
  *
  * Description: determines greater than 5, less than 6, or is 0
  *
