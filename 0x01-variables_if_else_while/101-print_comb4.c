@@ -2,7 +2,7 @@
 
 /**
  * main - this is a function
- *
+ * 
  * Description: Prints numbers between 012 to 789
  * 
  * Return: Always 0
@@ -11,6 +11,7 @@ int main(void)
 {
 	int a, b,  c;
 	for (a = 0; a < 9; a++)
+
 	{
 		for (b = a + 1; b < 9; b++)
 		{
@@ -20,7 +21,7 @@ int main(void)
 				putchar (b % 10 + '0');
 				putchar (c % 10 + '0');
 
-				if ( a == 7 && b == 8 && c ==9)
+				if (a == 7 && b == 8 && c == 9)
 					continue;
 				putchar (',');
 				putchar (' ');
