@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - this is a function
- *
+ * main - Entry point
+ * 
  * Description:  prints alphabet without q and e
  *
  * return : 0 when the funtion ends.
@@ -15,9 +15,9 @@ int main(void)
 	{
 		for (ch = 'a';ch <= 'z';ch++)
 		{
+
 		if (ch != 'e' && ch != 'q')
 			putchar(ch);
-
 		}
 	}
 	putchar ('\n');
