@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 /**
- * Main - program that prints alphabets in lowecase
+ * Main - Entry Point
  *
- * Return : Always 0
+ * Description: program that prints alphabets in lowecase
+ *
+ * Return : Always 0 (Success)
  */
 
 int main(void)
@@ -11,7 +13,9 @@ int main(void)
 	int a;
 
 	for (a = 'a'; a <= 'z'; a++)
+	{
 		putchar(a);
+	}
 	putchar ('\n');
 
 	return (0);
