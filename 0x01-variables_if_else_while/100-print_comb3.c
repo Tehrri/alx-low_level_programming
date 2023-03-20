@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - entry point  
- * 
+ * main - entry point
+ *
  * Description: prints numbers between 00 to 89
  *
  * Return: Always 0 (Success)
