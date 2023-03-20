@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * 
+ *
  * Description:  prints alphabet without q and e
  *
  * return : 0 when the funtion ends.
